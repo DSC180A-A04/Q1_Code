@@ -1,0 +1,5 @@
+# virtual env
+/venv
+
+# general python gitignore
+__pycache__/
