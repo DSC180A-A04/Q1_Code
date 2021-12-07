@@ -25,16 +25,25 @@ python run.py train
 - inference
 
 ```bash
+source src/pipeline/test.sh
 python run.py test
 ```
 
-5. Plot the visualization
+- visualization
 
-   - move the training results `plotweek55result` into folder `data/result/`
-   - cd into notebook folder and run following notebook in sequence
+  - move the training results `plotweek55result` into folder `data/result/`
+  - cd into notebook folder and run following notebook in sequence
 
-     - ensembleanalysis-residual.ipynb
-     - file_generate.ipynb
-     - plot_submission_file.ipynb
+    - ensembleanalysis-residual.ipynb
+    - file_generate.ipynb
+    - plot_submission_file.ipynb
 
-   - figure will saved in `figures`
+  - figure will saved in `figures`
+
+- clean the repo
+
+```bash
+python run.py clean
+```
+
+## Docker
