@@ -1,9 +1,12 @@
 {
-"prediction": 
-["data/death_data/gleam_mw_1_wk_ahead_ts_daily.csv",
-"data/death_data/gleam_mw_2_wk_ahead_ts_daily.csv",
-"data/death_data/gleam_mw_3_wk_ahead_ts_daily.csv",
-"data/death_data/gleam_mw_4_wk_ahead_ts_daily.csv"],
+"result_path":"../data/result/",
+"train_path":"../data/train/",
+"gleam_path":"../data/gleam_data/",
+"gleam": 
+["gleam_mw_1_wk_ahead_ts_daily.csv",
+"gleam_mw_2_wk_ahead_ts_daily.csv",
+"gleam_mw_3_wk_ahead_ts_daily.csv",
+"gleam_mw_4_wk_ahead_ts_daily.csv"],
 
-"truth":"data/death_data/time_series_covid19_deaths_US.csv"
+"truth":"time_series_covid19_deaths_US.csv"
 }
