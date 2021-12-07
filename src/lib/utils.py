@@ -187,6 +187,10 @@ def get_total_trainable_parameter_size():
 def load_dataset(dataset_dir, batch_size, test_batch_size=None, **kwargs):
     data = {}
     for category in ["train", "val", "test"]:
+        import os
+
+        print(os.getcwd())
+        print(dataset_dir)
         cat_data = np.load(os.path.join(dataset_dir, category + ".npz"))
         data["x_" + category] = cat_data["x"]
         data["y_" + category] = cat_data["y"]
