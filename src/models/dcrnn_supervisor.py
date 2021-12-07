@@ -5,11 +5,11 @@ import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
 
-from lib import utils
-from models.dcrnn_model import DCRNNModel
+from src.lib import utils
+from src.models.dcrnn_model import DCRNNModel
 
 # from model.pytorch.loss import mae_loss
-from models.loss import quantile_loss
+from src.models.loss import quantile_loss
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
