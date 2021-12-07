@@ -32,7 +32,7 @@ python run.py test
 - visualization
 
   - move the training results `plotweek55result` into folder `data/result/`
-  - cd into notebook folder and run following notebook in sequence
+  - cd into `notebooks` folder and run following notebook in sequence
 
     - ensembleanalysis-residual.ipynb
     - file_generate.ipynb
