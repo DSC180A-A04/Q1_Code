@@ -10,3 +10,7 @@ __pycache__/
 # pipeline cache
 data/model/
 runs/
+models_seed*/
+
+# mac
+.DS_Store

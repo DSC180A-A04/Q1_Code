@@ -15,6 +15,15 @@
 
 3. run the pipeline
 
+- train models
+
 ```bash
->>> python run.py
+python -m src.analysis.train_model --config_filename=configs/model/dcrnn_cov.yaml
+python run.py train
+```
+
+- inference
+
+```bash
+python run.py test
 ```
