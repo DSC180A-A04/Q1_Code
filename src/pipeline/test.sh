@@ -38,6 +38,6 @@ do
   #echo $output_filename
   #echo $random_seed
 
-  python -m src.analysis.predict --config_filename=$config_filename --output_filename=$output_filename --random_seed=$random_seed
+  python -m src.pipeline.predict --config_filename=$config_filename --output_filename=$output_filename --random_seed=$random_seed
 done
 
