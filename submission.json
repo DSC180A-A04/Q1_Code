@@ -1,0 +1,5 @@
+{
+  "dockerhub-id": "k5ding/dsc-180a-q1-code",
+  "train": "python -m src.pipeline.train_model --config_filename=configs/model/dcrnn_cov.yaml",
+  "test": "source src/pipeline/test.sh"
+}

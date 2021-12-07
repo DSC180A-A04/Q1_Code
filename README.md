@@ -47,3 +47,8 @@ python run.py clean
 ```
 
 ## Docker
+
+```bash
+>>> docker build -f ./Dockerfile -t dsc-180-q1-code .
+>>> docker run --rm -it dsc-180-q1-code /bin/bash
+```
