@@ -3,3 +3,15 @@
 
 # general python gitignore
 __pycache__/
+
+# vscode
+.vscode/
+
+# pipeline cache
+data/model/
+runs/
+models_seed*/
+data/result/
+
+# mac
+.DS_Store
