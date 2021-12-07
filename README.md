@@ -28,4 +28,4 @@
         - file_generate.ipynb
         - plot_submission_file.ipynb
 
-    -figure will saved in `figures`
+    - figure will saved in `figures`
