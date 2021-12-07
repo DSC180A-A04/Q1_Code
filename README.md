@@ -19,14 +19,12 @@
 
 ```bash
 python -m src.pipeline.train_model --config_filename=configs/model/dcrnn_cov.yaml
-python run.py train
 ```
 
 - inference
 
 ```bash
 source src/pipeline/test.sh
-python run.py test
 ```
 
 - visualization
