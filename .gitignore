@@ -3,3 +3,6 @@
 
 # general python gitignore
 __pycache__/
+
+# vscode
+.vscode/

@@ -4,8 +4,8 @@ import os
 import sys
 import yaml
 
-from lib.utils import load_graph_data
-from models.dcrnn_supervisor import DCRNNSupervisor
+from src.lib.utils import load_graph_data
+from src.models.dcrnn_supervisor import DCRNNSupervisor
 
 
 def run_dcrnn(args):
